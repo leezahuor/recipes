@@ -1,12 +1,12 @@
 * {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   line-height: 1.5;
-  text-align: center;
 }
 
 h1 {
   font-weight: bold;
   font-size: 3rem;
+  text-align: center;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 
 img {
   height: auto;
-  width: 500px;
+  width: 200px;
 }
 
 .card {
@@ -25,8 +25,11 @@ img {
   text-align: left;
   border-radius: 25px;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
 }
 
 a {
   font-size: 16px;
+  color: black;
+  text-decoration: none;
 }
